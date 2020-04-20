@@ -64,7 +64,7 @@ namespace MadPay724.Api
             app.UseMadInitialize(seeder);
             app.UseMadAuth();
             app.UseMadSwagger();
-            app.UseMadParbad();
+            app.UseMadParbad(); 
 
 
             var rewriteOptions = new RewriteOptions();
